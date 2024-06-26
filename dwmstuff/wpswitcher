@@ -1,0 +1,9 @@
+#!/bin/sh
+DIR=$HOME/Pictures/supposedtobesomething/
+
+while :
+do
+    feh --bg-scale --randomize $DIR/
+
+    sleep 10m
+done
