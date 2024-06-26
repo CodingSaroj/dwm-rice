@@ -1,0 +1,2 @@
+$(sleep 0.2s && (polybar -r --config=$HOME/.config/polybar/config.ini mybar 2>&1 | tee -a /tmp/polybar.log & disown)) &
+picom --vsync --backend glx
