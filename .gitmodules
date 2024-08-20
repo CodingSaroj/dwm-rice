@@ -1,0 +1,9 @@
+[submodule "sxhkd"]
+	path = sxhkd
+	url = https://github.com/baskerville/sxhkd
+[submodule "dwm-vanilla"]
+	path = dwm-vanilla
+	url = https://git.suckless.org/dwm
+[submodule "st-vanilla"]
+	path = st-vanilla
+	url = https://git.suckless.org/st

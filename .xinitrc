@@ -1,4 +1,6 @@
 export XDG_DESKTOP=dwm
-xbindkeys
+gsd-xsettings
+sxhkd -c ~/.sxhkdrc &
 $HOME/dwm-rice/wpswitcher &
+picom --vsync --backend glx &
 exec "$HOME/dwm-rice/rundwm"

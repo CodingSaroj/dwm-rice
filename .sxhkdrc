@@ -1,0 +1,14 @@
+XF86MonBrightnessUp
+	brightnessctl s 5%+ > /dev/null
+
+XF86MonBrightnessDown
+	brightnessctl s 5%- > /dev/null
+
+XF86AudioRaiseVolume
+	pamixer -i 5
+
+XF86AudioLowerVolume
+	pamixer -d 5
+
+XF86AudioMute
+	pamixer -$(if $(pamixer --get-mute) == "true"; then echo u; else echo m; fi)

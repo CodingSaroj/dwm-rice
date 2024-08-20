@@ -1,5 +1,5 @@
 #!/bin/sh
-DIR=$HOME/Pictures/supposedtobesomething/
+DIR=$(cat $HOME/.wallpaper)
 
 while :
 do
