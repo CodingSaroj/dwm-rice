@@ -8,7 +8,7 @@ index 2cd740a..91da945 100644
   */
 -static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
 -static int borderpx = 2;
-+static char *font = "FreeMono:size=12:antialias=true:autohint=true";
++static char *font = "FreeMono:size=13:antialias=true:autohint=true";
 +static int borderpx = 1;
  
  /*
